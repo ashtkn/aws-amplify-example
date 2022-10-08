@@ -2,6 +2,11 @@
 import { initSchema } from '@aws-amplify/datastore';
 import { schema } from './schema';
 
+
+
 const { Person, Board } = initSchema(schema);
 
-export { Person, Board };
+export {
+  Person,
+  Board
+};
