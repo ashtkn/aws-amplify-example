@@ -10,4 +10,11 @@ export type AmplifyDependentResourcesAttributes = {
       AppClientID: 'string';
     };
   };
+  api: {
+    awsamplifyexample: {
+      GraphQLAPIKeyOutput: 'string';
+      GraphQLAPIIdOutput: 'string';
+      GraphQLAPIEndpointOutput: 'string';
+    };
+  };
 };
