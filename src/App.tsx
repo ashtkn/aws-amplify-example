@@ -13,9 +13,7 @@ const App: React.FC = () => {
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
             <p>Hello {user?.username}!</p>
-            <a className="App-link" href="." onClick={() => signOut?.()}>
-              Sign Out
-            </a>
+            <button onClick={signOut}>Sign Out</button>
           </header>
         )}
       </Authenticator>
