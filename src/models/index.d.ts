@@ -12,7 +12,7 @@ export declare class Person {
   readonly id: string;
   readonly name: string;
   readonly email: string;
-  readonly age?: string | null;
+  readonly age?: number | null;
   readonly tel?: string | null;
   readonly Boards?: (Board | null)[] | null;
   readonly createdAt?: string | null;
